@@ -1,0 +1,142 @@
+/* @font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/magic-the-gathering.ttf') format('ttf'),
+         url('fonts/magic-the-gathering.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'MyCustomFont';
+    font-size: 100%;
+    
+} */
+
+body, h2, p {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'MyCustomFont'; */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 110px;
+    justify-content: center;
+}
+
+.card{
+    background-color: white;
+    border: 1px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.295);
+    padding: 20px;
+    width: 300px;
+    height: 450px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card img {
+    /* width: 100%; */
+    height: 80%;
+    border-radius: 8px;
+    
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    /* font-family: footlight mt light; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+
+}
+
+
+.card p {
+    position: relative;
+    top: 20px;
+    
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    /* background-color: black; */
+    /* color: white; */
+    font-size: 20px;
+}
+
+#modal {
+    width: 200px;
+    padding: 20px;
+    box-shadow: 1px 1px 4px 0px black;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+#modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+/* .commander img {
+    position: relative;
+    top: 30px;
+    width: 190px;
+    right: 30px;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.commander img.overlap:hover {
+    z-index: 3;
+}
+
+.commander img.overlap {
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    width: 190px;
+    height: 80%;
+    z-index: 1;
+}
+
+.commander {
+    position: relative;
+    height: 80%;
+} */
